@@ -1,0 +1,23 @@
+{
+  "name": "formuniv",
+  "version": "1.0.0",
+  "description": "universal crm handler",
+  "main": "formUniv.js",
+  "dependencies": {
+    "classlist-polyfill": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuvieme-page/formulaire-univ.git"
+  },
+  "author": "Ludovic Saffroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neuvieme-page/formulaire-univ/issues"
+  },
+  "homepage": "https://github.com/neuvieme-page/formulaire-univ#readme"
+}
