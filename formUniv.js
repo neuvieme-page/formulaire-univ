@@ -1,3 +1,5 @@
+require('classlist-polyfill');
+
 var formUniv = (function() {
 
 
@@ -40,6 +42,7 @@ var formUniv = (function() {
             body: artistId + '=true&country=FR&email=' + email.value + '&name=' + artistName
         }).then(function(resp) {
         }).catch(function(respError){
+            form.classList.add("success");
             email.value = 'Inscription Enregistrée, merci.';
         });
 
